@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20;
+    padding: 20;
+    
+   
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  #productForm{
+    background-color: #4caf50;
+    width: 600px;
+    margin-left: 550px;
+  }
+  
+  form {
+    margin-bottom: 200px;
+    align-items: center;
+  }
+  form input,
+  form textarea {
+    align-items: center;
+    width: 90%;
+    padding: 5px;
+    
+  }
+  
+  form label {
+    display:flex;
+    margin-bottom: 5px;
+  }
+  
+  
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+    
+   ;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+  
+  li span {
+    margin-right: 10px;
+  }
+  
+  li button {
+    background: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  li button:first-child {
+    background: #4caf50;
+    margin-right: 5px;
+  }
+  
